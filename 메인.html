@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduce My Home</title>
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .header {
+        background-color: rgb(155, 229, 155);
+        padding: 20px 0;
+    }
+
+    .head_wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+.head_left img {
+    height: 50px;
+}
+
+.head_right ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.head_right ul li {
+    display: inline;
+}
+
+.head_right ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.head_right ul li a:hover {
+    color: #007BFF;
+}
+.head_right ul li a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+.overview-container {
+    display: flex;
+    align-items: center;
+    padding: 20px; /* 상하 여백 추가 */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.overview {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.overview img {
+    width: 100%;
+    height: auto;
+    margin: 0 20px;
+}
+.overview-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.overview-details ol {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.overview-details ol li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="head_wrap">
+            <div class="head_left"><a href="http://127.0.0.1:5500/myHomePage/%EB%A9%94%EC%9D%B8.html"><img src="../resources/Logo.png" alt="상단 로고"></a></div>
+            <div class="head_right"><ul><li><a href="http://127.0.0.1:5500/myHomePage/%EC%82%AC%EC%97%85%EA%B0%9C%EC%9A%94.html">사업 개요</a></li>
+                <li><a href="http://127.0.0.1:5500/myHomePage/%EB%8B%A8%EC%A7%80%20%ED%99%98%EA%B2%BD.html">단지 환경</a></li>
+                <li><a href="http://127.0.0.1:5500/myHomePage/%EC%84%B8%EB%8C%80%EC%A0%95%EB%B3%B4.html">세대 정보</a></li>
+                <li><a href="http://127.0.0.1:5500/myHomePage/%EC%98%A4%EC%8B%9C%EB%8A%94%EA%B8%B8.html">오시는 길</a></li></ul></div>
+        </div>
+    </div>
+    
+<div class="overview-container">
+    <div class="overview">
+        <img src="../resources/overview.png" alt="전경 사진">
+    </div>
+    <div class="overview-details">
+        <ol>
+            <li>아파트</li>
+            <li>438세대</li>
+            <li>2012년 8월</li>
+            <li>6개동</li>
+            <li>최고 25층</li>
+            <li>용적률 216%</li>
+            <li> 건폐율 15%</li>
+            <li>지하주차 513대</li>
+            <li>계단식</li>
+            <li>열병합</li>
+            <li>내진설계</li>
+        </ol>
+    </div>
+</div>
+    <footer style="text-align: center;">
+        Copyright sj.
+    </footer>
+
+</body>
+</html>
